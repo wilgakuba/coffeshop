@@ -9,6 +9,8 @@
 @import "bootstrap/utilities";
 @import "bootstrap/grid";
 @import "bootstrap/images";
+@import "./bootstrap/card";
+@import "./bootstrap/navbar";
 
 // variables
 @import "variables";
@@ -21,3 +23,7 @@
 // Icon
 
 @import "icons";
+
+@import "header";
+@import "about";
+@import "products"

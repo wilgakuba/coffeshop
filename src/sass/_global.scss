@@ -1,8 +1,7 @@
-
 /* Global */
 
 *, *::before, *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
   
 body {
@@ -10,6 +9,44 @@ body {
   background-color: $color-light;
   font-family: $font-main;
   line-height: 1.7;
-  font-weight: $font-regular;  
+  font-weight: $font-normal;  
+}
+  
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+  
+.page {
+  padding: 5px;
+}
+  
+.title {
+  margin-bottom: 80px;
+  text-align: center;
+  color: $color-main;
+  font-size: 28px;
+  font-weight: $font-semibold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+  
+.title:after {
+  position: absolute;
+  content: '';
+  bottom: -10px;
+  left: 50%;
+  width: 400px;
+  height: 4px;
+  transform: translateX(-50%);
+  background: $color-main;
+}
+  
+.footer {
+  font-size: 10px;
+  text-align: center;
+  margin: 15px 0;
 }
   
