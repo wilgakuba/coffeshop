@@ -1,65 +1,65 @@
 #pages {
-    > * {
-      display: none;
-    }
+  > * {
+    display: none;
+  }
     
-    > .active {
-      display: block;
-    }
+  > .active {
+    display: block;
+  }
+}
+  
+.products {
+  margin-bottom: 50px;
+  
+}
+  
+.product-content {
+  border-color: $color-light;
+  height: 300px;
+  position: relative;
+  
+  .product__name {
+    font-size: 30px;
+    font-weight: $font-bold;
+    letter-spacing: 1px;
   }
   
-  .products {
-    margin-bottom: 50px;
-  
+  .product__name:after {
+    position: absolute;
+    content: '';
+    top: 90px;
+    left: 42px;
+    width: 75px;
+    height: 3px;
+    transform: translateX(-50%);
+    background: $color-main;
   }
   
-  .product-content {
-    border-color: $color-light;
-    height: 300px;
-    position: relative;
-  
-    .product__name {
-      font-size: 30px;
-      font-weight: $font-bold;
-      letter-spacing: 1px;
-    }
-  
-    .product__name:after {
-      position: absolute;
-      content: '';
-      top: 90px;
-      left: 42px;
-      width: 75px;
-      height: 3px;
-      transform: translateX(-50%);
-      background: $color-main;
-    }
-  
-    .product__description {
-      font-size: 10px;
-      font-weight: $font-semibold;
-      max-width: 220px;
-      position: absolute;
-      top: 72px;
-      left: 100px;
-    }
-  
-    .details {
-      line-height: 0.5;
-      font-size: 13px;
-      font-weight: $font-bold;
-      text-transform: uppercase;
-      position: absolute;
-      top: 160px;
-      left: 5px;
-  
-      .score {
-        color: $color-main;
-      }
-    }
+  .product__description {
+    font-size: 10px;
+    font-weight: $font-semibold;
+    max-width: 220px;
+    position: absolute;
+    top: 72px;
+    left: 100px;
   }
   
-  .product-image {
-    box-sizing: border-box;
-    box-shadow: black;
+  .details {
+    line-height: 0.5;
+    font-size: 13px;
+    font-weight: $font-bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 160px;
+    left: 5px;
+  
+    .score {
+      color: $color-main;
+    }
   }
+}
+  
+.product-image {
+  box-sizing: border-box;
+  box-shadow: black;
+}

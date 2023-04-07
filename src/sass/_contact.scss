@@ -1,0 +1,30 @@
+form {
+  color: $color-dark;
+  font-weight: $font-bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  justify-content: space-between;
+  height: 400px;
+  width: 250px;
+  margin: auto;
+  
+  input, textarea {
+    border: 2px solid black;
+    line-height: 2;
+  }
+  
+  button[type="submit"] {
+    background-color: $color-main;
+    color: $color-light;
+    font-weight: $font-bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 40px;
+    width: 100px;
+    margin: 40px auto;
+    border: none;
+  }
+}

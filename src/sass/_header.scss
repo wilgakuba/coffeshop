@@ -1,100 +1,101 @@
 .header {
-    height: 1007px;
-    background-image: url(../images/background.png);
-    background-size: cover;
-    padding: 20px;
-  }
+  height: 1007px;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  padding: 20px;
+}
   
-  .container {
-    position: relative;
-  }
+.container {
+  position: relative;
+}
   
-  .logo {
-    color: $color-light;
-    line-height: 5px;
-    margin-top: 46px;
+.logo {
+  color: $color-light;
+  line-height: 5px;
+  margin-top: 46px;
   
   
-    h2 {
-      font-size: 36px;
-      text-transform: uppercase;
-      font-weight: $font-bold;
-      letter-spacing: 10.8px;
-    }
-  
-    h3 {
-      font-size: 16px;
-      text-transform: uppercase;
-      font-weight: $font-semibold;
-      letter-spacing: 4px;
-    }
-  }
-  
-  .main-nav {
-    font-size: 20px;
+  h2 {
+    font-size: 36px;
     text-transform: uppercase;
-    margin-top: 68px;
-    a {
-      color: rgb(197, 188, 176);
-      text-decoration: none;
-      display: inline-block;
-      margin-right: 20px;
-    }
+    font-weight: $font-bold;
+    letter-spacing: 10.8px;
   }
+  
+  h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: $font-semibold;
+    letter-spacing: 4px;
+  }
+}
+  
+.main-nav {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 68px;
+
+  a {
+    color: rgb(197, 188, 176);
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+  }
+}
     
-  .welcome-text {
-    color: $color-main;
-    line-height: 25px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.welcome-text {
+  color: $color-main;
+  line-height: 25px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   
-    h1 {
-      font-size: 60px;
-      font-weight: $font-bold;
-      text-transform: uppercase;
-      letter-spacing: 10px;
+  h1 {
+    font-size: 60px;
+    font-weight: $font-bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
   
-      &.left {
-        margin-left: -150px;
-      }
-  
-      &.right {
-        margin-right: -100px;
-      }
-    }
-  }
-  
-  .welcome-text :after {
-    position: absolute;
-    content: '';
-    bottom: -10px;
-    left: 50%;
-    width: 180px;
-    height: 4px;
-    transform: translateX(-50%);
-    background: $color-main;
-  }
-  
-  .discover {
-    color: $color-light;
-    line-height: 1;
-    text-align: center;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  
-  
-    h2 {
-      font-size: 20px;
-      font-weight: $font-normal;
-      text-transform: uppercase;
-      letter-spacing: 4px;
+    &.left {
+      margin-left: -150px;
     }
   
-    i {
-      font-size: 26px;
+    &.right {
+      margin-right: -100px;
     }
   }
+}
+  
+.welcome-text :after {
+  position: absolute;
+  content: '';
+  bottom: -10px;
+  left: 50%;
+  width: 180px;
+  height: 4px;
+  transform: translateX(-50%);
+  background: $color-main;
+}
+  
+.discover {
+  color: $color-light;
+  line-height: 1;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+  
+  h2 {
+    font-size: 20px;
+    font-weight: $font-normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  i {
+    font-size: 26px;
+  }
+}

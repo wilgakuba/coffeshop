@@ -1,22 +1,22 @@
 .about {
-    height: 480px;
-    padding-top: 10px;
-    position: relative;
+  height: 480px;
+  padding-top: 10px;
+  position: relative;
   
-    .about-content {
-      position: relative;
-      color: $color-light;
-      font-style: italic;
-      font-size: 22px;
-      width: 500px;
-      margin: auto;
-      filter: none;
+  .about-content {
+    position: relative;
+    color: $color-light;
+    font-style: italic;
+    font-size: 22px;
+    width: 500px;
+    margin: auto;
+    filter: none;
     
-      p.join {
-        text-align: right;
-      }
+    p.join {
+      text-align: right;
     }
   }
+}
   
 .about::before {
   content: "";
